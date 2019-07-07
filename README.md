@@ -1,2 +1,2 @@
-# java
-my java projects
+# Java
+My Java Projects.
