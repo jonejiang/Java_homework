@@ -1,2 +1,2 @@
-# Java
-My Java Projects.
+# Java Homework
+My Java Homework.
