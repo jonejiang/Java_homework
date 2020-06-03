@@ -45,39 +45,40 @@ public class MavenWrapperDownloader {
      */
     private static final String PROPERTY_NAME_WRAPPER_URL = "wrapperUrl";
 
-    public static void main(String args[]) {
+    public static void main(final String args[]) {
         System.out.println("- Downloader started");
-        File baseDirectory = new File(args[0]);
+        final File baseDirectory = new File(args[0]);
         System.out.println("- Using base directory: " + baseDirectory.getAbsolutePath());
 
-        // If the maven-wrapper.properties exists, read it and check if it contains a custom
+        // If the maven-wrapper.properties exists, read it and check if it contains a
+        // custom
         // wrapperUrl parameter.
-        File mavenWrapperPropertyFile = new File(baseDirectory, MAVEN_WRAPPER_PROPERTIES_PATH);
+        final File mavenWrapperPropertyFile = new File(baseDirectory, MAVEN_WRAPPER_PROPERTIES_PATH);
         String url = DEFAULT_DOWNLOAD_URL;
-        if(mavenWrapperPropertyFile.exists()) {
+        if (mavenWrapperPropertyFile.exists()) {
             FileInputStream mavenWrapperPropertyFileInputStream = null;
             try {
                 mavenWrapperPropertyFileInputStream = new FileInputStream(mavenWrapperPropertyFile);
-                Properties mavenWrapperProperties = new Properties();
+                final Properties mavenWrapperProperties = new Properties();
                 mavenWrapperProperties.load(mavenWrapperPropertyFileInputStream);
                 url = mavenWrapperProperties.getProperty(PROPERTY_NAME_WRAPPER_URL, url);
-            } catch (IOException e) {
+            } catch (final IOException e) {
                 System.out.println("- ERROR loading '" + MAVEN_WRAPPER_PROPERTIES_PATH + "'");
             } finally {
                 try {
-                    if(mavenWrapperPropertyFileInputStream != null) {
+                    if (mavenWrapperPropertyFileInputStream != null) {
                         mavenWrapperPropertyFileInputStream.close();
                     }
-                } catch (IOException e) {
+                } catch (final IOException e) {
                     // Ignore ...
                 }
             }
         }
         System.out.println("- Downloading from: " + url);
 
-        File outputFile = new File(baseDirectory.getAbsolutePath(), MAVEN_WRAPPER_JAR_PATH);
-        if(!outputFile.getParentFile().exists()) {
-            if(!outputFile.getParentFile().mkdirs()) {
+        final File outputFile = new File(baseDirectory.getAbsolutePath(), MAVEN_WRAPPER_JAR_PATH);
+        if (!outputFile.getParentFile().exists()) {
+            if (!outputFile.getParentFile().mkdirs()) {
                 System.out.println(
                         "- ERROR creating output directory '" + outputFile.getParentFile().getAbsolutePath() + "'");
             }
@@ -87,17 +88,17 @@ public class MavenWrapperDownloader {
             downloadFileFromURL(url, outputFile);
             System.out.println("Done");
             System.exit(0);
-        } catch (Throwable e) {
+        } catch (final Throwable e) {
             System.out.println("- Error downloading");
             e.printStackTrace();
             System.exit(1);
         }
     }
 
-    private static void downloadFileFromURL(String urlString, File destination) throws Exception {
+    private static void downloadFileFromURL(final String urlString, final File destination) throws Exception {
         if (System.getenv("MVNW_USERNAME") != null && System.getenv("MVNW_PASSWORD") != null) {
-            String username = System.getenv("MVNW_USERNAME");
-            char[] password = System.getenv("MVNW_PASSWORD").toCharArray();
+            final String username = System.getenv("MVNW_USERNAME");
+            final char[] password = System.getenv("MVNW_PASSWORD").toCharArray();
             Authenticator.setDefault(new Authenticator() {
                 @Override
                 protected PasswordAuthentication getPasswordAuthentication() {
@@ -105,10 +106,10 @@ public class MavenWrapperDownloader {
                 }
             });
         }
-        URL website = new URL(urlString);
+        final URL website = new URL(urlString);
         ReadableByteChannel rbc;
         rbc = Channels.newChannel(website.openStream());
-        FileOutputStream fos = new FileOutputStream(destination);
+        final FileOutputStream fos = new FileOutputStream(destination);
         fos.getChannel().transferFrom(rbc, 0, Long.MAX_VALUE);
         fos.close();
         rbc.close();
