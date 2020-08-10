@@ -1,0 +1,20 @@
+= Welcome to the Video Service
+
+This service is a SpringBoot MVC based service that is designed to serve suggested links to named games.
+
+=== Prerequisite
+
+If you have obtained an API key then ensure it is added to the shell using your profile file.
+
+[source,shell,indent=0]
+.home/profile
+----
+...
+export YOUTUBE_API_KEY="Your-Key"
+----
+
+To build the service run:
+
+----
+$ gradle build
+----

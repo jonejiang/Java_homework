@@ -1,0 +1,46 @@
+apply plugin: 'java'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "io.spring.gradle:dependency-management-plugin:1.0.0.RELEASE"
+    }
+}
+
+apply plugin: "io.spring.dependency-management"
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.jboss.arquillian:arquillian-bom:1.1.13.Final'
+    }
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+test {
+    testLogging {
+        showStandardStreams = true
+    }
+
+}
+
+dependencies {
+
+    testCompile rootProject
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.4.1'
+    testCompile group: 'org.jboss.arquillian.junit', name: 'arquillian-junit-standalone'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive'
+    testCompile 'org.arquillian.algeron:arquillian-algeron-pact-consumer-core:1.0.1'
+    testCompile 'org.arquillian.algeron:arquillian-algeron-consumer-git-publisher:1.0.1'
+    testCompile 'au.com.dius:pact-jvm-consumer_2.11:3.5.0'
+
+}

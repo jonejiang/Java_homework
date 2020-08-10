@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en" ng-app="gamerApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Google Phone Gallery</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/angular.js"></script>
+    <script src="assets/js/route.js"></script>
+    <script src="assets/js/controllers.js"></script>
+</head>
+
+<body ng-controller="gamerCtrl">
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2">
+            <input id="tms-search" ng-model="searchText">
+            <button id="tms-button" ng-click="searchGame()">Search</button>
+        </div>
+        <div class="col-sm-3">
+            <div class="list-group">
+                <a href="#/detail/{{game.id}}" class="list-group-item" ng-repeat="game in games">
+                    <p class="list-group-item-heading">{{game.name}}</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-sm-7">
+            <div id="detail-view" ng-view></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

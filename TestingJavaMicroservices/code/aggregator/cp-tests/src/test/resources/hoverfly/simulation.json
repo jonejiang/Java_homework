@@ -1,0 +1,43 @@
+{
+  "data" : {
+    "pairs" : [ {
+      "request" : {
+        "path" : {
+          "exactMatch" : "/comments"
+        },
+        "method" : {
+          "exactMatch" : "POST"
+        },
+        "destination" : {
+          "exactMatch" : "comments.gamers.com"
+        },
+        "scheme" : {
+          "exactMatch" : "http"
+        },
+        "query" : {
+          "exactMatch" : ""
+        },
+        "body" : {
+          "jsonMatch" : "{\"comment\":\"This Game is Awesome\",\"rate\":5,\"gameId\":1234}"
+        }
+      },
+      "response" : {
+        "status" : 201,
+        "encodedBody" : false,
+        "headers" : {
+          "Content-Length" : [ "0" ],
+          "Date" : [ "Thu, 15 Jun 2017 17:51:17 GMT" ],
+          "Hoverfly" : [ "Was-Here" ],
+          "Location" : [ "http://192.168.99.100:8080/commentsservice/5942c915c9e77c0001454df1" ],
+          "Server" : [ "Apache TomEE" ]
+        }
+      }
+    } ],
+    "globalActions" : {
+      "delays" : [ ]
+    }
+  },
+  "meta" : {
+    "schemaVersion" : "v2"
+  }
+}

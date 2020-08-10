@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/geektime.iml" filepath="$PROJECT_DIR$/.idea/geektime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring/hello-spring.iml" filepath="$PROJECT_DIR$/hello-spring/hello-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-starter-jdbc/spring-boot-starter-jdbc.iml" filepath="$PROJECT_DIR$/spring-boot-starter-jdbc/spring-boot-starter-jdbc.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,61 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.sourcemuse.gradle.plugin:gradle-mongo-plugin:0.13.0'
+        classpath "io.spring.gradle:dependency-management-plugin:1.0.0.RELEASE"
+    }
+}
+
+apply plugin: 'java'
+apply plugin: "io.spring.dependency-management"
+apply plugin: 'mongo'
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.jboss.arquillian:arquillian-bom:1.1.12.Final'
+        mavenBom 'org.jboss.shrinkwrap:shrinkwrap-bom:1.2.6'
+        mavenBom 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom:2.2.4'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    testLogging {
+        showStandardStreams = true
+    }
+
+    runWithMongoDb = true
+}
+
+dependencies {
+
+    testCompile rootProject
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.arquillian.algeron:arquillian-algeron-pact-provider-core:1.0.1'
+    testCompile 'au.com.dius:pact-jvm-provider_2.11:3.5.0'
+    testCompile 'org.arquillian.algeron:arquillian-algeron-pact-provider-assertj:1.0.1'
+    testCompile 'org.assertj:assertj-core:3.8.0'
+    testCompile 'io.rest-assured:rest-assured:3.0.2'
+    testCompile group: 'org.jboss.arquillian.junit', name: 'arquillian-junit-container'
+    testCompile 'org.apache.tomee:arquillian-tomee-remote:7.0.2'
+    testCompile ('com.lordofthejars:nosqlunit-mongodb:0.10.0')
+
+
+    testCompile 'org.jboss.shrinkwrap:shrinkwrap-api'
+    testCompile 'org.jboss.shrinkwrap:shrinkwrap-spi'
+    testCompile 'org.jboss.shrinkwrap:shrinkwrap-impl-base'
+
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive'
+}

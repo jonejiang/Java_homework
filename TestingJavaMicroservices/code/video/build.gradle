@@ -1,0 +1,46 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.3.6.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+group = 'org.gamer'
+version = '1.0-SNAPSHOT'
+
+jar {
+    baseName = 'video-service'
+    version =  '0.1.0'
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    compile.exclude module: "spring-boot-starter-tomcat"
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.5.2'
+    compile 'com.google.apis:google-api-services-youtube:v3-rev183-1.22.0'
+    compile 'org.springframework.boot:spring-boot-starter-web:1.4.5.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-undertow:1.4.5.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-actuator:1.4.5.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-data-redis:1.4.5.RELEASE'
+    compile 'com.orange.redis-embedded:embedded-redis:0.5'
+}
+
+tasks.withType(JavaCompile) {
+     options.encoding = 'UTF-8'
+}

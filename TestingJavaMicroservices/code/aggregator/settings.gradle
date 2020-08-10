@@ -1,0 +1,5 @@
+include 'i-tests'
+include 'c-tests'
+include 'cp-tests'
+
+rootProject.name = 'aggr'

@@ -1,0 +1,11 @@
+<resources>
+
+    <Resource id="mongodb"
+              class-name="book.comments.MongoClientProvider"
+              constructor="address, port, database">
+        address = ${mongodb.address:-localhost}
+        port = ${mongodb.port:-27017}
+        database = ${mongodb.database:-test}
+    </Resource>
+
+</resources>

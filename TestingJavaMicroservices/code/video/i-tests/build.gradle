@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'io.spring.dependency-management'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.jboss.arquillian:arquillian-bom:1.1.12.Final'
+    }
+}
+
+dependencies {
+
+    testCompile rootProject
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.8.0'
+    testCompile 'org.springframework.boot:spring-boot-starter-test:1.4.5.RELEASE'
+    testCompile('com.lordofthejars:nosqlunit-redis:0.10.0')
+    testCompile('org.jboss.arquillian.junit:arquillian-junit-container')
+    testCompile('org.jboss.arquillian.extension:arquillian-service-container-spring:1.1.0.Alpha1')
+    testCompile('org.jboss.arquillian.extension:arquillian-service-integration-spring-inject:1.1.0.Alpha1')
+    testCompile('org.jboss.arquillian.extension:arquillian-service-integration-spring:1.1.0.Alpha1')
+    testCompile('org.jboss.arquillian.extension:arquillian-service-integration-spring-inject:1.1.0.Alpha1')
+    testCompile('org.jboss.arquillian.extension:arquillian-service-integration-spring-javaconfig:1.1.0.Alpha1')
+    testCompile('com.github.kstyrc:embedded-redis:0.6')
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+

@@ -1,0 +1,3 @@
+include 'i-tests'
+include 'c-tests'
+rootProject.name = 'video'

@@ -1,0 +1,63 @@
+
+plugins {
+    id "io.spring.dependency-management" version "0.6.1.RELEASE"
+}
+
+dependencyManagement {
+    imports {
+        mavenBom 'org.jboss.arquillian:arquillian-bom:1.1.13.Final'
+        mavenBom 'org.jboss.shrinkwrap:shrinkwrap-bom:1.2.6'
+        mavenBom 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-bom:2.2.6'
+    }
+}
+
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+group = 'org.gamer'
+version = '1.0-SNAPSHOT'
+war.archiveName = "commentsservice.war"
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    providedCompile 'javax:javaee-api:7.0'
+
+    compile 'org.mongodb:mongodb-driver:3.2.2'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.assertj:assertj-core:3.4.1'
+    testCompile group: 'org.jboss.arquillian.junit', name: 'arquillian-junit-container'
+    testCompile 'org.apache.tomee:arquillian-tomee-remote:7.0.2'
+
+    testCompile 'org.jboss.shrinkwrap:shrinkwrap-api'
+    testCompile 'org.jboss.shrinkwrap:shrinkwrap-spi'
+    testCompile 'org.jboss.shrinkwrap:shrinkwrap-impl-base'
+
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-spi-maven'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-api-maven-archive'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven'
+    testCompile 'org.jboss.shrinkwrap.resolver:shrinkwrap-resolver-impl-maven-archive'
+
+    testCompile 'org.jboss.arquillian.extension:arquillian-rest-client-api:1.0.0.Alpha4'
+    testCompile 'org.jboss.arquillian.extension:arquillian-rest-client-impl-3x:1.0.0.Alpha4'
+
+    testCompile 'org.jboss.arquillian.extension:arquillian-warp-api:1.0.0.Alpha4'
+    testCompile 'org.jboss.arquillian.extension:arquillian-rest-warp-impl-jaxrs-2.0:1.0.0.Alpha4'
+
+}
+
+test {
+    systemProperty "tomee.classifier", "plus"
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}

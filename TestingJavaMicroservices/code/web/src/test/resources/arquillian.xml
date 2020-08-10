@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<arquillian xmlns="http://jboss.org/schema/arquillian"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="
+        http://jboss.org/schema/arquillian
+        http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+
+    <!--tag::group[]-->
+    <group qualifier="tomee-cluster" default="true"> <!--1-->
+        <container qualifier="gamerweb" default="true"> <!--2-->
+            <configuration>
+                <property name="httpPort">8080</property> <!--3-->
+                <property name="stopPort">-1</property>
+                <property name="ajpPort">-1</property>
+                <property name="classifier">plus</property>
+                <property name="appWorkingDir">target/gamerweb_work</property>
+                <property name="dir">target/gamerwebservice</property> <!--4-->
+            </configuration>
+        </container>
+        <container qualifier="commentsservice" default="false">
+            <configuration>
+                <property name="httpPort">8282</property>
+                <property name="stopPort">-1</property>
+                <property name="ajpPort">-1</property>
+                <property name="classifier">plus</property>
+                <property name="appWorkingDir">target/commentsservice_work</property>
+                <property name="dir">target/commentsservice</property>
+            </configuration>
+        </container>
+        <container qualifier="gameaggregatorservice" default="false">
+            <configuration>
+                <property name="httpPort">8383</property>
+                <property name="stopPort">-1</property>
+                <property name="ajpPort">-1</property>
+                <property name="classifier">plus</property>
+                <property name="appWorkingDir">target/gameaggregatorservice_work</property>
+                <property name="dir">target/gameaggregatorservice</property>
+                <property name="properties">
+                    com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager=true
+                </property>
+            </configuration>
+        </container>
+    </group>
+    <!--end::group[]-->
+
+    <!--tag::webdriver[]-->
+    <extension qualifier="webdriver">
+        <property name="browser">${browser:chrome}</property> <!--1-->
+        <!--https://sites.google.com/a/chromium.org/chromedriver/-->
+        <property name="chromeDriverBinary">/home/andy/dev/chromedriver</property> <!--2-->
+    </extension>
+    <!--end::webdriver[]-->
+
+    <!--tag::graphene[]-->
+    <extension qualifier="graphene">
+        <property name="waitAjaxInterval">3</property>
+    </extension>
+    <!--end::graphene[]-->
+
+</arquillian>

@@ -1,0 +1,10 @@
+<div id="game-detail" class="jumbotron" ng-show="selectedGame">
+    IGDB Game ID: {{selectedGame.id}}
+    <br/>
+    <h3>Full Name: {{selectedGame.title}}</h3>
+    <br/>
+    <img id="game-cover" src="https:{{selectedGame.cover}}" style="width:200px;height:auto;">
+</div>
+<div class="jumbotron" ng-hide="selectedGame">
+    Search for and select a game...
+</div>
