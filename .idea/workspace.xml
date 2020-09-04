@@ -27,9 +27,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf33e31f-c8fc-40d8-bd94-e96c65ffa137" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/twoSum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/seleniumJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +50,18 @@
     <option name="done" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jonejiang" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev200831" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -58,6 +78,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,6 +94,14 @@
       <option name="presentableId" value="Default" />
       <updated>1596905281953</updated>
     </task>
+    <task id="LOCAL-00001" summary="update files 202009011355">
+      <created>1598939754701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598939754701</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,11 +130,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update files 202009011355" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files 202009011355" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1139" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596905310525">
-      <screen x="-1920" y="-98" width="1920" height="1057" />
+    <state x="-1028" y="-272" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598942325306">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
+    <state x="-1028" y="-272" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1598942325306" />
+    <state x="-1067" y="-243" width="405" height="345" key="#com.intellij.tools.ToolEditorDialog" timestamp="1599034630941">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1067" y="-243" width="405" height="345" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599034630941" />
+    <state x="-1225" y="-505" key="CommitChangelistDialog2" timestamp="1598939753631">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1225" y="-505" key="CommitChangelistDialog2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1598939753631" />
+    <state x="-1083" y="-331" key="FileChooserDialogImpl" timestamp="1599034677858">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1083" y="-331" key="FileChooserDialogImpl/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599034677858" />
+    <state x="-1283" y="-338" key="IDE.errors.dialog" timestamp="1599186325854">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1283" y="-338" key="IDE.errors.dialog/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599186325854" />
+    <state x="-1362" y="-428" key="SettingsEditor" timestamp="1599034720337">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1362" y="-428" key="SettingsEditor/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599034720337" />
+    <state x="-1271" y="-339" key="Vcs.Push.Dialog.v2" timestamp="1598939760624">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1271" y="-339" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1598939760624" />
+    <state x="-971" y="-224" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599033760553">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-971" y="-224" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599033760553" />
     <state x="-1139" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1244.777/-1920.-98.1920.1057@-1920.-98.1920.1057" timestamp="1596905310525" />
   </component>
 </project>
