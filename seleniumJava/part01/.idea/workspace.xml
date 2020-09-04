@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="所有位置" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2afa8432-353b-44f9-a087-fc438aa8734e" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../../leetcode/twoSum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/seleniumJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Itest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1h1o1OI2cdYb3SQY7iqFobeCeSt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/client-combined-3.141.59.jar" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Itest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Itest" />
+      <module name="part01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Itest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2afa8432-353b-44f9-a087-fc438aa8734e" name="默认的" comment="" />
+      <created>1599187743340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599187743340</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1044" y="-382" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1599201369490">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1044" y="-382" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599201369490" />
+    <state x="-1237" y="-394" key="#检查" timestamp="1599201138374">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1237" y="-394" key="#检查/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599201138374" />
+    <state x="-1383" y="-498" key="#项目结构" timestamp="1599202745928">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1383" y="-498" key="#项目结构/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599202745928" />
+    <state x="-1083" y="-331" key="FileChooserDialogImpl" timestamp="1599201113272">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1083" y="-331" key="FileChooserDialogImpl/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599201113272" />
+    <state width="1109" height="729" key="GridCell.Tab.0.bottom" timestamp="1599213373276">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state width="1109" height="729" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599213373276" />
+    <state width="1109" height="729" key="GridCell.Tab.0.center" timestamp="1599213373276">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state width="1109" height="729" key="GridCell.Tab.0.center/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599213373276" />
+    <state width="1109" height="729" key="GridCell.Tab.0.left" timestamp="1599213373276">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state width="1109" height="729" key="GridCell.Tab.0.left/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599213373276" />
+    <state width="1109" height="729" key="GridCell.Tab.0.right" timestamp="1599213373276">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state width="1109" height="729" key="GridCell.Tab.0.right/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599213373276" />
+    <state width="1109" height="729" key="GridCell.Tab.1.bottom" timestamp="1599213373276">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state width="1109" height="729" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599213373276" />
+    <state width="1109" height="729" key="GridCell.Tab.1.center" timestamp="1599213373276">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state width="1109" height="729" key="GridCell.Tab.1.center/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599213373276" />
+    <state width="1109" height="729" key="GridCell.Tab.1.left" timestamp="1599213373276">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state width="1109" height="729" key="GridCell.Tab.1.left/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599213373276" />
+    <state width="1109" height="729" key="GridCell.Tab.1.right" timestamp="1599213373276">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state width="1109" height="729" key="GridCell.Tab.1.right/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599213373276" />
+    <state x="-1383" y="-498" key="SettingsEditor" timestamp="1599212804253">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1383" y="-498" key="SettingsEditor/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599212804253" />
+  </component>
+</project>
