@@ -7,26 +7,40 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/dev2009021602" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2afa8432-353b-44f9-a087-fc438aa8734e" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../../leetcode/twoSum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/seleniumJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Itest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +62,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jonejiang &lt;jonehzainer@163.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="dev2009021602" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MavenImportPreferences">
@@ -101,10 +125,46 @@
       <option name="presentableId" value="Default" />
       <updated>1599187743340</updated>
     </task>
+    <task id="LOCAL-00001" summary="update files jonejiang">
+      <created>1599220511513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599220511513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev2009021602" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update files jonejiang" />
+    <option name="LAST_COMMIT_MESSAGE" value="update files jonejiang" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1044" y="-382" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1599201369490">
@@ -119,10 +179,14 @@
       <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
     <state x="-1383" y="-498" key="#项目结构/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599202745928" />
-    <state x="-1083" y="-331" key="FileChooserDialogImpl" timestamp="1599201113272">
+    <state x="-1261" y="-505" key="CommitChangelistDialog2" timestamp="1599220510722">
       <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
-    <state x="-1083" y="-331" key="FileChooserDialogImpl/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599201113272" />
+    <state x="-1261" y="-505" key="CommitChangelistDialog2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599220510722" />
+    <state x="-1083" y="-331" key="FileChooserDialogImpl" timestamp="1599443226166">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1083" y="-331" key="FileChooserDialogImpl/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599443226166" />
     <state width="1109" height="729" key="GridCell.Tab.0.bottom" timestamp="1599213373276">
       <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
@@ -159,5 +223,13 @@
       <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
     <state x="-1383" y="-498" key="SettingsEditor/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599212804253" />
+    <state x="-1271" y="-339" key="Vcs.Push.Dialog.v2" timestamp="1599220523316">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1271" y="-339" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599220523316" />
+    <state x="-1050" y="-159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599220853787">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1050" y="-159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599220853787" />
   </component>
 </project>

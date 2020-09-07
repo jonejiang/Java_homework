@@ -27,19 +27,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf33e31f-c8fc-40d8-bd94-e96c65ffa137" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/twoSum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/seleniumJava.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/LeetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/LeetCode/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/LeetCode/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/LeetCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/LeetCode/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/LeetCode/LeetCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumJava/LeetCode/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumJava/part01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumJava/part01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,5 +174,9 @@
     </state>
     <state x="-971" y="-224" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599033760553" />
     <state x="-1139" y="351" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1244.777/-1920.-98.1920.1057@-1920.-98.1920.1057" timestamp="1596905310525" />
+    <state x="-1272" y="-412" key="new project wizard" timestamp="1599443632667">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1272" y="-412" key="new project wizard/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599443632667" />
   </component>
 </project>
