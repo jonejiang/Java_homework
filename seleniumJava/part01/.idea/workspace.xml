@@ -34,13 +34,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2afa8432-353b-44f9-a087-fc438aa8734e" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,10 +177,10 @@
       <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
     <state x="-1261" y="-505" key="CommitChangelistDialog2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599220510722" />
-    <state x="-1083" y="-331" key="FileChooserDialogImpl" timestamp="1599443226166">
+    <state x="-1083" y="-331" key="FileChooserDialogImpl" timestamp="1599443737987">
       <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
-    <state x="-1083" y="-331" key="FileChooserDialogImpl/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599443226166" />
+    <state x="-1083" y="-331" key="FileChooserDialogImpl/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599443737987" />
     <state width="1109" height="729" key="GridCell.Tab.0.bottom" timestamp="1599213373276">
       <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
@@ -231,5 +225,9 @@
       <screen x="-1440" y="-1081" width="1152" height="2018" />
     </state>
     <state x="-1050" y="-159" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599220853787" />
+    <state x="-1272" y="-412" key="new project wizard" timestamp="1599443827925">
+      <screen x="-1440" y="-1081" width="1152" height="2018" />
+    </state>
+    <state x="-1272" y="-412" key="new project wizard/0.0.1536.834/1920.-258.1920.1050/-1440.-1081.1152.2018@-1440.-1081.1152.2018" timestamp="1599443827925" />
   </component>
 </project>
